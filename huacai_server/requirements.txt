@@ -1,3 +1,9 @@
 flask
 flask-sqlalchemy
 flask_script
+heapq
+xlrd
+pandas 
+numpy 
+random 
+jieba
