@@ -145,7 +145,7 @@ def recommend_one(data,cus_temp,indi_list):
     return rec_list
 
 def main(mode,input_cus = '' ):
-    Song_addr="Song_database.xlsx"
+    Song_addr="/home/huacai/flask/huacai/huacai_server/common/libs/Song_database.xlsx"
     #Cus_addr='test.xls'
     df1 = pd.read_excel(Song_addr);
     """读取歌曲库"""

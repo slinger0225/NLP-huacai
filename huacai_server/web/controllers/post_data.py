@@ -6,7 +6,7 @@ import json
 route_post = Blueprint('post', __name__)
 
 
-@route_post.route("/", methods=['POST'])
+@route_post.route("/data", methods=['POST'])
 def index():
     #userID = request.values.get("userID")
     #userID = json.loads(userID)

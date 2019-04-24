@@ -17,7 +17,7 @@ def calculate(test):
 
     ##爱人得分
     emotion_dic = {}
-    filename = 'wordCount_爱人.txt'
+    filename = '/home/huacai/flask/huacai/huacai_server/common/libs/wordCount_爱人.txt'
     with open(filename, 'r', encoding = 'utf-8') as file:
         while True:
             try:
@@ -50,7 +50,7 @@ def calculate(test):
 
     ##爱上得分
     emotion_dic1 = {}
-    filename = 'wordCount_爱上.txt'
+    filename = '/home/huacai/flask/huacai/huacai_server/common/libs/wordCount_爱上.txt'
     with open(filename, 'r', encoding = 'utf-8') as file:
         while True:
             try:
@@ -84,7 +84,7 @@ def calculate(test):
 
     ##痴迷得分
     emotion_dic2 = {}
-    filename = 'wordCount_痴迷.txt'
+    filename = '/home/huacai/flask/huacai/huacai_server/common/libs/wordCount_痴迷.txt'
     with open(filename, 'r', encoding = 'utf-8') as file:
         while True:
             try:
@@ -115,7 +115,7 @@ def calculate(test):
 
     ##感动得分
     emotion_dic3 = {}
-    filename = 'wordCount_感动.txt'
+    filename = '/home/huacai/flask/huacai/huacai_server/common/libs/wordCount_感动.txt'
     with open(filename, 'r', encoding = 'utf-8') as file:
         while True:
             try:
@@ -146,7 +146,7 @@ def calculate(test):
 
     ##感谢得分
     emotion_dic4 = {}
-    filename = 'wordCount_感谢.txt'
+    filename = '/home/huacai/flask/huacai/huacai_server/common/libs/wordCount_感谢.txt'
     with open(filename, 'r', encoding = 'utf-8') as file:
         while True:
             try:
@@ -176,7 +176,7 @@ def calculate(test):
 
     ##快乐得分
     emotion_dic5 = {}
-    filename = 'wordCount_快乐.txt'
+    filename = '/home/huacai/flask/huacai/huacai_server/common/libs/wordCount_快乐.txt'
     with open(filename, 'r', encoding = 'utf-8') as file:
         while True:
             try:
@@ -206,7 +206,7 @@ def calculate(test):
 
     ##迷恋得分
     emotion_dic6 = {}
-    filename = 'wordCount_迷恋.txt'
+    filename = '/home/huacai/flask/huacai/huacai_server/common/libs/wordCount_迷恋.txt'
     with open(filename, 'r', encoding = 'utf-8') as file:
         while True:
             try:
@@ -236,7 +236,7 @@ def calculate(test):
 
     ##治愈得分
     emotion_dic7 = {}
-    filename = 'wordCount_治愈.txt'
+    filename = '/home/huacai/flask/huacai/huacai_server/common/libs/wordCount_治愈.txt'
     with open(filename, 'r', encoding = 'utf-8') as file:
         while True:
             try:
@@ -266,7 +266,7 @@ def calculate(test):
 
     ##正向意象得分
     emotion_dic8 = {}
-    filename = 'wordCount_正向意象.txt'
+    filename = '/home/huacai/flask/huacai/huacai_server/common/libs/wordCount_正向意象.txt'
     with open(filename, 'r', encoding = 'utf-8') as file:
         while True:
             try:

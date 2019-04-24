@@ -43,7 +43,7 @@ def sent_rec(content):#传入用户的id，用户文本内容
 	reco = item[1:]
 
 	'''POST推荐结果'''
-	xls_songinfo = xlrd.open_workbook('song_info.xls')
+	xls_songinfo = xlrd.open_workbook('/home/huacai/flask/huacai/huacai_server/common/libs/song_info.xls')
 	songsheet = xls_songinfo.sheet_by_index(0)
 	#song_num = songsheet.col_values(0)
 	# song_num = song_num[1:]
