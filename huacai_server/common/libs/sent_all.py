@@ -1,7 +1,8 @@
 from common.libs.AnalNeg import calculate as calculateNeg
 from common.libs.AnalPos import calculate as calculatePos
 from common.libs.AnalNeutral import calculate as calculateNeu
-from common.libs.cosine import main as cosine
+#from common.libs.cosine import main as cosine
+from common.libs.cosine_neo import main as cosine
 import pandas as pd
 import xlrd
 import heapq

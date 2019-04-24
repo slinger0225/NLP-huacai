@@ -22,8 +22,8 @@ def calculate(test):
         while True:
             try:
                 senList = file.readline()
-                # print(senList)        
-                senList = senList[:-1] 
+                # print(senList)
+                senList = senList[:-1]
                 senList = senList.split(' ')
                 emotion_dic[senList[0]] = senList[1]
             except IndexError:
@@ -55,13 +55,13 @@ def calculate(test):
         while True:
             try:
                 senList = file.readline()
-                # print(senList)        
-                senList = senList[:-1] 
+                # print(senList)
+                senList = senList[:-1]
                 senList = senList.split(' ')
                 emotion_dic1[senList[0]] = senList[1]
             except IndexError:
                 break
-    # print("洒脱 dict:",emotion_dic1)
+
 
     seg_list = jieba.cut(test, cut_all=True)#True效果更好
     string = "/ ".join(seg_list)
@@ -69,13 +69,13 @@ def calculate(test):
     emotion_index1 = 0
 
     new_list = [i.strip() for i in string_list]
+    # print("例句分词结果：",new_list)
+    # print("失恋 dict:",emotion_dic)
 
-
-
-    for count1 in range(len(new_list)):
+    for count in range(len(new_list)):
         if new_list[count] in emotion_dic1:
-            # print(float(emotion_dic1[new_list[count1]]))
-            emotion_index1 += float(emotion_dic1[new_list[count1]])
+            # print(float(emotion_dic[new_list[count]]))
+            emotion_index1 += float(emotion_dic1[new_list[count]])
 
     # print("单项分数:")
     # print(emotion_index1)
@@ -89,8 +89,8 @@ def calculate(test):
         while True:
             try:
                 senList = file.readline()
-                # print(senList)        
-                senList = senList[:-1] 
+                # print(senList)
+                senList = senList[:-1]
                 senList = senList.split(' ')
                 emotion_dic2[senList[0]] = senList[1]
             except IndexError:
@@ -120,8 +120,8 @@ def calculate(test):
         while True:
             try:
                 senList = file.readline()
-                # print(senList)        
-                senList = senList[:-1] 
+                # print(senList)
+                senList = senList[:-1]
                 senList = senList.split(' ')
                 emotion_dic3[senList[0]] = senList[1]
             except IndexError:
@@ -151,8 +151,8 @@ def calculate(test):
         while True:
             try:
                 senList = file.readline()
-                # print(senList)        
-                senList = senList[:-1] 
+                # print(senList)
+                senList = senList[:-1]
                 senList = senList.split(' ')
                 emotion_dic4[senList[0]] = senList[1]
             except IndexError:
@@ -181,8 +181,8 @@ def calculate(test):
         while True:
             try:
                 senList = file.readline()
-                # print(senList)        
-                senList = senList[:-1] 
+                # print(senList)
+                senList = senList[:-1]
                 senList = senList.split(' ')
                 emotion_dic5[senList[0]] = senList[1]
             except IndexError:
@@ -211,8 +211,8 @@ def calculate(test):
         while True:
             try:
                 senList = file.readline()
-                # print(senList)        
-                senList = senList[:-1] 
+                # print(senList)
+                senList = senList[:-1]
                 senList = senList.split(' ')
                 emotion_dic6[senList[0]] = senList[1]
             except IndexError:
@@ -241,8 +241,8 @@ def calculate(test):
         while True:
             try:
                 senList = file.readline()
-                # print(senList)        
-                senList = senList[:-1] 
+                # print(senList)
+                senList = senList[:-1]
                 senList = senList.split(' ')
                 emotion_dic7[senList[0]] = senList[1]
             except IndexError:
@@ -271,8 +271,8 @@ def calculate(test):
         while True:
             try:
                 senList = file.readline()
-                # print(senList)        
-                senList = senList[:-1] 
+                # print(senList)
+                senList = senList[:-1]
                 senList = senList.split(' ')
                 emotion_dic8[senList[0]] = senList[1]
             except IndexError:
