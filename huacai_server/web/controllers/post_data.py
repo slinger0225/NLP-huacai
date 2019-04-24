@@ -19,7 +19,7 @@ def index():
     return json.dumps(rec_result, ensure_ascii=False)
 
 @route_post.route("/test", methods=['POST'])
-def index():
+def test():
     #userID = request.values.get("userID")
     #userID = json.loads(userID)
     userInputStory = request.values.get("userInputStory")

@@ -96,7 +96,6 @@ def find_songs(cus):  #cus在这里面只包括一个id+七个情感值
     comp_list_sec=list(graph.run("match (a:Attribute) --(c:Song) where a.Indi="+str(first)+" or a.Indi="+str(second)+" return c"))
     comp_list_rev=list(graph.run("match (a:Attribute) --(c:Song)--(b:Attribute) where a.Indi="+str(128/first)+" and b.Indi="+str(64/second)+" return c"))
     comp_list=strip_data(comp_list)
-    comp_list_sec=comp_list_sec-comp_list
     comp_list_sec = strip_data(comp_list_sec)
     comp_list_rev = strip_data(comp_list_rev)
     comp_list_sec=[v for v in comp_list_sec if v not in comp_list]  # 给comp_list_sec去重
